@@ -1,0 +1,866 @@
+{
+  "displayFieldName": "",
+  "fieldAliases": {
+    "OBJECTID": "OBJECTID",
+    "osm_id": "osm_id",
+    "timestamp": "timestamp",
+    "name": "name",
+    "type": "type"
+  },
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": { "wkid": 4326, "latestWkid": 4326 },
+  "fields": [
+    { "name": "OBJECTID", "type": "esriFieldTypeOID", "alias": "OBJECTID" },
+    { "name": "osm_id", "type": "esriFieldTypeDouble", "alias": "osm_id" },
+    {
+      "name": "timestamp",
+      "type": "esriFieldTypeString",
+      "alias": "timestamp",
+      "length": 20
+    },
+    {
+      "name": "name",
+      "type": "esriFieldTypeString",
+      "alias": "name",
+      "length": 48
+    },
+    {
+      "name": "type",
+      "type": "esriFieldTypeString",
+      "alias": "type",
+      "length": 16
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 1,
+        "osm_id": 607535751,
+        "timestamp": " ",
+        "name": "Saraswoti Temple",
+        "type": "place_of_worship"
+      },
+      "geometry": { "x": 85.335160000000087, "y": 27.755321200000139 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 2,
+        "osm_id": 1668304912,
+        "timestamp": " ",
+        "name": "Sub Police Station, Tokha",
+        "type": "police"
+      },
+      "geometry": { "x": 85.327355700000055, "y": 27.756249800000091 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 3,
+        "osm_id": -1324216470,
+        "timestamp": " ",
+        "name": "Morgan International School",
+        "type": "school"
+      },
+      "geometry": { "x": 85.334536500000013, "y": 27.756602200000088 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 4,
+        "osm_id": 140105100,
+        "timestamp": " ",
+        "name": "Sadbhab Party Palace",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.329094800000064, "y": 27.760261900000046 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 5,
+        "osm_id": 140138746,
+        "timestamp": " ",
+        "name": "Rasal Driving Centre",
+        "type": "driving_school"
+      },
+      "geometry": { "x": 85.330283000000122, "y": 27.7547505 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 6,
+        "osm_id": 1415642306,
+        "timestamp": " ",
+        "name": "Yubin Khaja Ghar",
+        "type": "fast_food"
+      },
+      "geometry": { "x": 85.332326100000046, "y": 27.762975400000016 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7,
+        "osm_id": 1415656589,
+        "timestamp": " ",
+        "name": "Hisila Suppliers Pvt Ltd",
+        "type": "information"
+      },
+      "geometry": { "x": 85.332546600000001, "y": 27.762995100000069 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 8,
+        "osm_id": 1415698196,
+        "timestamp": " ",
+        "name": "New Rest Food Station",
+        "type": "food_court"
+      },
+      "geometry": { "x": 85.331443300000046, "y": 27.762608300000011 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 9,
+        "osm_id": 1415734424,
+        "timestamp": " ",
+        "name": "Gorkhali khaja ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.331248500000072, "y": 27.762522199999978 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 10,
+        "osm_id": 1415744635,
+        "timestamp": " ",
+        "name": "Bhumika Variety Khaja ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.331169700000146, "y": 27.762429699999984 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11,
+        "osm_id": 1415755993,
+        "timestamp": " ",
+        "name": "Dovan Gurung Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.332059099999981, "y": 27.761672200000021 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 12,
+        "osm_id": 1415764561,
+        "timestamp": " ",
+        "name": "Dharane Sekuwa Corner",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.331217400000014, "y": 27.762341900000024 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 13,
+        "osm_id": 1415793966,
+        "timestamp": " ",
+        "name": "Shakya sweets and Chat House",
+        "type": "food_court"
+      },
+      "geometry": { "x": 85.333253200000058, "y": 27.760899400000028 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 14,
+        "osm_id": 1416060335,
+        "timestamp": " ",
+        "name": "Lamjung Gurung Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.331955600000128, "y": 27.761579499999982 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 15,
+        "osm_id": 1416078159,
+        "timestamp": " ",
+        "name": "Newari Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.332695300000069, "y": 27.761387900000102 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 16,
+        "osm_id": 1417179533,
+        "timestamp": " ",
+        "name": "shuvindra Newari Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.33379270000006, "y": 27.75920160000004 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 17,
+        "osm_id": 1418029179,
+        "timestamp": " ",
+        "name": "Royal Dine",
+        "type": "information"
+      },
+      "geometry": { "x": 85.329438800000105, "y": 27.762927400000137 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 18,
+        "osm_id": 1419416475,
+        "timestamp": " ",
+        "name": "R.B Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.326970200000119, "y": 27.762790199999984 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 19,
+        "osm_id": 1419578527,
+        "timestamp": " ",
+        "name": "द\u0941प\u094Dच\u0947श\u094Dवर ख\u093Eन\u093E त",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.327239800000029, "y": 27.762785600000143 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 20,
+        "osm_id": 1419578529,
+        "timestamp": " ",
+        "name": "Dami chha",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.328487700000096, "y": 27.762971300000004 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21,
+        "osm_id": 1419578530,
+        "timestamp": " ",
+        "name": "Multi Cuisine Restaurant And Bar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.328575800000067, "y": 27.762629500000003 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 22,
+        "osm_id": 1419578532,
+        "timestamp": " ",
+        "name": "Pratima Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.328934100000083, "y": 27.76200080000001 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23,
+        "osm_id": 1419578533,
+        "timestamp": " ",
+        "name": "Shree Sapana Tirtha Driving Center Pvt Ltd.",
+        "type": "driving_school"
+      },
+      "geometry": { "x": 85.328672200000085, "y": 27.76195030000008 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24,
+        "osm_id": 1419578535,
+        "timestamp": " ",
+        "name": "Sherpa Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.328416000000004, "y": 27.761114800000087 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25,
+        "osm_id": 1419578538,
+        "timestamp": " ",
+        "name": "Happy Home",
+        "type": "kindergarten"
+      },
+      "geometry": { "x": 85.329184399999974, "y": 27.762467500000071 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 26,
+        "osm_id": 1419578539,
+        "timestamp": " ",
+        "name": "Royal Dine",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.329465599999992, "y": 27.762791200000038 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 27,
+        "osm_id": 1419741634,
+        "timestamp": " ",
+        "name": "Gufadevi Auto Service Center",
+        "type": "vehicle_inspecti"
+      },
+      "geometry": { "x": 85.327073599999949, "y": 27.756711500000051 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 28,
+        "osm_id": 1419741639,
+        "timestamp": " ",
+        "name": "Kantipuri Bahuudeshiya sahakari sanstha limited",
+        "type": "bank"
+      },
+      "geometry": { "x": 85.327928700000029, "y": 27.75871810000001 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 29,
+        "osm_id": 1419741641,
+        "timestamp": " ",
+        "name": "Food forest Restro",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.328048800000033, "y": 27.758834900000068 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 30,
+        "osm_id": 1419741644,
+        "timestamp": " ",
+        "name": "White-Rabbit Pizza Box",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.328723900000114, "y": 27.759395400000074 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 31,
+        "osm_id": 1419741645,
+        "timestamp": " ",
+        "name": "Rasal Driving Center",
+        "type": "driving_school"
+      },
+      "geometry": { "x": 85.328766100000053, "y": 27.759428800000023 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 32,
+        "osm_id": 1419741647,
+        "timestamp": " ",
+        "name": "Lumanti Newari Restaurant",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.328870300000119, "y": 27.759460400000137 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 33,
+        "osm_id": 1419741648,
+        "timestamp": " ",
+        "name": "Veenas residency",
+        "type": "hotel"
+      },
+      "geometry": { "x": 85.328981700000099, "y": 27.759421400000122 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 34,
+        "osm_id": 1419741650,
+        "timestamp": " ",
+        "name": "Sajan Khaja Ghar and Mo:Mo center",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.329285000000141, "y": 27.759952199999987 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 35,
+        "osm_id": 1419741659,
+        "timestamp": " ",
+        "name": "Flavour D Newari Cuisine",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.330149400000096, "y": 27.761257100000137 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 36,
+        "osm_id": 1419816034,
+        "timestamp": " ",
+        "name": "Tapari Momo and Sekuwa",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.330474100000117, "y": 27.762636900000075 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 37,
+        "osm_id": 1419816035,
+        "timestamp": " ",
+        "name": "Gurung Boring Inar and Water treatment Services",
+        "type": "water_works"
+      },
+      "geometry": { "x": 85.330473200000029, "y": 27.762614600000006 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 38,
+        "osm_id": 1419816037,
+        "timestamp": " ",
+        "name": "Kunwar Veterinary Pharma",
+        "type": "veterinary"
+      },
+      "geometry": { "x": 85.330462400000044, "y": 27.762418700000126 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 39,
+        "osm_id": 1419816041,
+        "timestamp": " ",
+        "name": "New Everest Khaja Ghar and Bhojanalaya",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.330351200000109, "y": 27.762121900000068 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 40,
+        "osm_id": 1419816043,
+        "timestamp": " ",
+        "name": "Anjila Medical Hall",
+        "type": "clinic"
+      },
+      "geometry": { "x": 85.330269600000065, "y": 27.761963000000094 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 41,
+        "osm_id": 1419880516,
+        "timestamp": " ",
+        "name": "Everest Momo Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.330678100000114, "y": 27.762966399999982 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 42,
+        "osm_id": 1419880517,
+        "timestamp": " ",
+        "name": "New Panipuri Chatpate Junction",
+        "type": "cafe"
+      },
+      "geometry": { "x": 85.330685600000038, "y": 27.762877700000104 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 43,
+        "osm_id": 1419880520,
+        "timestamp": " ",
+        "name": "Empire Cafe",
+        "type": "cafe"
+      },
+      "geometry": { "x": 85.330640000000017, "y": 27.762674500000003 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 44,
+        "osm_id": 1419928441,
+        "timestamp": " ",
+        "name": "Kantipur Mobile Veterinary",
+        "type": "veterinary"
+      },
+      "geometry": { "x": 85.330194100000028, "y": 27.761462400000084 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 45,
+        "osm_id": 1419928442,
+        "timestamp": " ",
+        "name": "Sherpa Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.330179999999928, "y": 27.761428500000079 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 46,
+        "osm_id": 1419933411,
+        "timestamp": " ",
+        "name": "Lumanti Newari Restaurant",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.329021600000033, "y": 27.759632000000124 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 47,
+        "osm_id": 1419941059,
+        "timestamp": " ",
+        "name": "Spicy Tandoori Foodland",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.330753399999992, "y": 27.762643500000081 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 48,
+        "osm_id": 1422698787,
+        "timestamp": " ",
+        "name": "Gurung Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.329390200000148, "y": 27.760412700000074 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 49,
+        "osm_id": 1422698793,
+        "timestamp": " ",
+        "name": "Dholkhali Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.329107300000032, "y": 27.760072700000023 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 50,
+        "osm_id": 1422698797,
+        "timestamp": " ",
+        "name": "Burger king and crunchy fried chicken",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.328587700000014, "y": 27.759519800000078 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 51,
+        "osm_id": 1423604135,
+        "timestamp": " ",
+        "name": "Shree Ganesh Mandir",
+        "type": "place_of_worship"
+      },
+      "geometry": { "x": 85.332027900000071, "y": 27.754343100000028 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 52,
+        "osm_id": 1423622108,
+        "timestamp": " ",
+        "name": "Khaja ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.332149500000014, "y": 27.760001499999987 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 53,
+        "osm_id": 1423732308,
+        "timestamp": " ",
+        "name": "Shakha Savali Khajaghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.327706000000092, "y": 27.755977799999926 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 54,
+        "osm_id": 1423732321,
+        "timestamp": " ",
+        "name": "Rooftop Marshyangdi Restaurant",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.3283330000001, "y": 27.755130099999974 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 55,
+        "osm_id": 1423830434,
+        "timestamp": " ",
+        "name": "Nepal Bank Limited",
+        "type": "bank"
+      },
+      "geometry": { "x": 85.327970100000073, "y": 27.754332200000022 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 56,
+        "osm_id": 1423830438,
+        "timestamp": " ",
+        "name": "Prabhu Bank",
+        "type": "bank"
+      },
+      "geometry": { "x": 85.327915299999972, "y": 27.754245200000128 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 57,
+        "osm_id": 1423830440,
+        "timestamp": " ",
+        "name": "Muktinath Bikash Bank Ltd.",
+        "type": "bank"
+      },
+      "geometry": { "x": 85.327865500000144, "y": 27.754197999999917 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 58,
+        "osm_id": 1423830442,
+        "timestamp": " ",
+        "name": "Santosh Sweets",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.327813300000059, "y": 27.754129599999942 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 59,
+        "osm_id": 1425444054,
+        "timestamp": " ",
+        "name": "Meet and Eat Cafe",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.329064500000015, "y": 27.754776700000036 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 60,
+        "osm_id": 1425444055,
+        "timestamp": " ",
+        "name": "Asia Pacific School",
+        "type": "school"
+      },
+      "geometry": { "x": 85.32876750000014, "y": 27.754923000000076 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 61,
+        "osm_id": 1425523961,
+        "timestamp": " ",
+        "name": "Royal Car Wash",
+        "type": "car_wash"
+      },
+      "geometry": { "x": 85.327455300000111, "y": 27.755950499999983 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 62,
+        "osm_id": 1425523962,
+        "timestamp": " ",
+        "name": "ZORBAS Bakery and Cafe",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.327583900000093, "y": 27.755845800000031 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 63,
+        "osm_id": 1425523975,
+        "timestamp": " ",
+        "name": "Kavreli Khana tatha Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.328103100000078, "y": 27.755351300000143 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 64,
+        "osm_id": 1425523981,
+        "timestamp": " ",
+        "name": "Small Steps Kindergarten and Pre-school",
+        "type": "kindergarten"
+      },
+      "geometry": { "x": 85.32790940000001, "y": 27.754965099999993 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 65,
+        "osm_id": 1425523982,
+        "timestamp": " ",
+        "name": "Umang Fresh Falful Pasal",
+        "type": "fast_food"
+      },
+      "geometry": { "x": 85.328042900000071, "y": 27.754927500000065 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 66,
+        "osm_id": 1425523985,
+        "timestamp": " ",
+        "name": "Abhishek Falful tatha Juice Pasal",
+        "type": "fast_food"
+      },
+      "geometry": { "x": 85.327988199999993, "y": 27.75481689999998 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 67,
+        "osm_id": 1425523988,
+        "timestamp": " ",
+        "name": "Gulmeli Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.327899800000125, "y": 27.754703600000028 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 68,
+        "osm_id": 1425523990,
+        "timestamp": " ",
+        "name": "Sabitri Didiko Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.327855900000031, "y": 27.754515100000049 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 69,
+        "osm_id": 1426497225,
+        "timestamp": " ",
+        "name": "Manisha Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.327906999999982, "y": 27.758974000000023 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 70,
+        "osm_id": 1426497230,
+        "timestamp": " ",
+        "name": "Prashant Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.327747799999997, "y": 27.75875330000008 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 71,
+        "osm_id": 1426497232,
+        "timestamp": " ",
+        "name": "Blueberry Mart , Nepal Gas Dealer",
+        "type": "fuel"
+      },
+      "geometry": { "x": 85.327527600000053, "y": 27.758206900000005 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 72,
+        "osm_id": 1426497235,
+        "timestamp": " ",
+        "name": "Agni Itta Udhyog",
+        "type": "works"
+      },
+      "geometry": { "x": 85.327040700000111, "y": 27.757023799999956 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 73,
+        "osm_id": 1426497239,
+        "timestamp": " ",
+        "name": "Tokha Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.328483899999924, "y": 27.759433200000046 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 74,
+        "osm_id": 1426497244,
+        "timestamp": " ",
+        "name": "Nuwakot Family Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.329051499999991, "y": 27.760007799999983 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 75,
+        "osm_id": 1427382069,
+        "timestamp": " ",
+        "name": "Nirmala Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.329797000000042, "y": 27.754536500000086 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 76,
+        "osm_id": 1427382070,
+        "timestamp": " ",
+        "name": "Solukhumbu Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.329629200000056, "y": 27.75461770000004 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 77,
+        "osm_id": 1427382077,
+        "timestamp": " ",
+        "name": "Maya Khaja Ghar",
+        "type": "restaurant"
+      },
+      "geometry": { "x": 85.329402400000106, "y": 27.754683999999997 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 78,
+        "osm_id": 1427454112,
+        "timestamp": " ",
+        "name": "Shemrock Vatsalaya",
+        "type": "kindergarten"
+      },
+      "geometry": { "x": 85.335262499999999, "y": 27.758017999999993 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 79,
+        "osm_id": 1427454118,
+        "timestamp": " ",
+        "name": "Thulung Remittance",
+        "type": "money_transfer"
+      },
+      "geometry": { "x": 85.334993600000132, "y": 27.757562899999982 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 80,
+        "osm_id": 1427454123,
+        "timestamp": " ",
+        "name": "JB School",
+        "type": "school"
+      },
+      "geometry": { "x": 85.332637400000067, "y": 27.756436700000052 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 81,
+        "osm_id": 1439909258,
+        "timestamp": " ",
+        "name": "Street FoodZone",
+        "type": "fast_food"
+      },
+      "geometry": { "x": 85.330493999999987, "y": 27.76114270000005 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 82,
+        "osm_id": 1439952796,
+        "timestamp": " ",
+        "name": "Sherpa Oil Store",
+        "type": "fuel"
+      },
+      "geometry": { "x": 85.327300900000125, "y": 27.757067000000006 }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 83,
+        "osm_id": 1439952797,
+        "timestamp": " ",
+        "name": "Machhapuchre Bank",
+        "type": "atm"
+      },
+      "geometry": { "x": 85.327422600000091, "y": 27.757291599999917 }
+    }
+  ]
+}
