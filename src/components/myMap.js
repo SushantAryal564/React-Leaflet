@@ -1,8 +1,10 @@
 import React from "react";
+import { useState } from "react";
 import countries from "./../data/countries.json";
-import { MapContainer, GeoJSON, Marker } from "react-leaflet";
-import { layerGroup } from "leaflet";
+import { MapContainer, GeoJSON } from "react-leaflet";
 const MyMap = (props) => {
+  const [colorselected, setColor] = useState("#ffff00");
+  const color = ["green", "blue", "yellow", "orange", "red", "pink"];
   const position = [27.757195, 85.33092];
   const countryStyle = {
     fillColor: "red",
@@ -11,16 +13,28 @@ const MyMap = (props) => {
     weight: 0.4,
     dashArray: 5,
   };
+  const colorChangeHandler = (event) => {
+    setColor(event.target.value);
+  };
+  const printMessageToConsole = (event) => {
+    console.log("clicked");
+  };
+  const ChangeCountryColor = (event) => {
+    event.target.setStyle({
+      color: "green",
+      fillColor: colorselected,
+    });
+  };
   const onEachCountry = (country, lyr) => {
     console.log(country.properties.ADMIN);
     lyr.bindPopup(country.properties.ADMIN);
+    // lyr.options.fillOpacity = Math.random();
+    lyr.options.fillColor = color[Math.floor(Math.random() * color.length)];
     lyr.on({
-      click: (event) => {
-        event.target.setStyle({
-          fillColor: "yellow",
-          color: "green",
-        });
-      },
+      click: printMessageToConsole,
+    });
+    lyr.on({
+      mouseover: ChangeCountryColor,
     });
   };
   return (
@@ -33,6 +47,7 @@ const MyMap = (props) => {
           onEachFeature={onEachCountry}
         />
       </MapContainer>
+      <input type="color" value={colorselected} onChange={colorChangeHandler} />
     </div>
   );
 };
